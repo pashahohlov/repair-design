@@ -14,3 +14,10 @@ gulp.task('browser-sync', function() {
     });
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
+
+gulp.task('sass', function() {
+    return gulp.src("app/scss/*.scss")
+        .pipe(sass())
+        .pipe(gulp.dest("app/css"))
+        .pipe(browserSync.stream());
+});
