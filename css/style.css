@@ -305,8 +305,27 @@ template {
 
 .container {
   max-width: 1256px;
-  margin: auto;
-  border: 1px solid red; }
+  margin: auto; }
 
 .header {
-  background-color: #131313; }
+  background-color: #131313;
+  padding: 24px 0; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  color: #E3B873;
+  text-transform: uppercase; }
+
+.nav__item {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 40px; }
+
+body {
+  font-family: sans-serif;
+  font-size: 14px; }
