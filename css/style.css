@@ -400,6 +400,14 @@ template {
     color: #fff;
     text-decoration: none;
     font-family: 'Yeseva One', cursive; }
+    .hero__scroll-down::after {
+      content: '';
+      width: 29px;
+      height: 29px;
+      border: 2px solid #E3B873;
+      border-radius: 50%;
+      margin-left: 12px;
+      background: url("../img/downarrow.svg") no-repeat center; }
 
 .instagram {
   background-color: #131313;
@@ -407,10 +415,19 @@ template {
   justify-content: center;
   align-items: center; }
   .instagram__link {
+    display: flex;
     text-transform: uppercase;
     color: #E3B873;
     text-decoration: none;
-    transform: rotate(90deg); }
+    transform: rotate(90deg);
+    align-items: center;
+    line-height: 0.8; }
+    .instagram__link::after {
+      content: '';
+      width: 50px;
+      height: 1px;
+      background-color: #E3B873;
+      margin-left: 8px; }
 
 .title {
   margin: 0;
