@@ -398,7 +398,8 @@ template {
     justify-content: center;
     text-transform: uppercase;
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'Yeseva One', cursive; }
 
 .instagram {
   background-color: #131313;
